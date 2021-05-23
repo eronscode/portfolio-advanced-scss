@@ -1,5 +1,11 @@
-
+$primary-color: #272727;
+$secondary-color: #ffffff;
+$text-color: #cccc;
 
 body{
-    background: blue;
+    background: $primary-color;
+}
+
+h1{
+    color: $text-color;
 }
