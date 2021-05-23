@@ -7,11 +7,11 @@
 
 body{
     background: $primary-color;
+    color: $text-color;
 
 }
 
 
 h1{
-    color: $text-color;
     font-weight: setWeight(regular);
 }

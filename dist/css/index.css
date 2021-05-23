@@ -7,10 +7,10 @@
 
 body {
   background: #272727;
+  color: #ffffff;
 }
 
 h1 {
-  color: #ffffff;
   font-weight: 400;
 }
 
@@ -21,7 +21,6 @@ h1 {
 
 .card .card__title {
   font-weight: 600;
-  color: #ffffff;
 }
 
 .card .card__title:hover {
@@ -30,6 +29,42 @@ h1 {
 
 .card .card__content {
   font-weight: 400;
-  color: #ffffff;
+}
+
+.card .card__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.card .card__bottom .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.light {
+  background: white;
+  color: black;
 }
 /*# sourceMappingURL=index.css.map */
