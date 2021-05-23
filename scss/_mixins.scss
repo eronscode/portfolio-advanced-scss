@@ -7,13 +7,23 @@
 
 @mixin theme($light-theme: true){
     @if $light-theme{
-        background: lighten($primary-color, 100%);
-        color: darken($text-color, 100%);
+        background: lighten(setColor(primary), 100%);
+        color: darken(setColor(default), 100%);
     }
 }
 
 @mixin mediaQuery {
     @media (max-width: 800px){
         @content;
+    }
+}
+
+@mixin mq($canvas) {
+    @each $name, $bp in $breakpoint {
+        @if $canvas == $name {
+        @media only screen and (max-width: $bp) {
+            @content;
+        }
+        }
     }
 }

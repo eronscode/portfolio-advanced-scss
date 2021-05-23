@@ -8,24 +8,67 @@
     <title>Document</title>
 </head>
 <body class="light">
-    <h1>This is a heading</h1>
-    <div class="card">
-        <h4 class="card__title">I'2m a header</h4>
-        <p class="card__content">
-            Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Quis vel voluptas aperiam 
-            repellendus quaerat labore nemo odio, quisquam
-            sint quibusdam voluptate sed sequi. Totam rem
-            quis numquam vel dolores doloremque?
-        </p>
-        <div class="card__bottom">
-            <div class="item">
-                <p>Lorem ipsum dolor sit, amet consectetur </p>
-            </div>
-            <div class="item">
-                <p>Lorem ipsum dolor sit, amet consectetur </p>
-            </div>
+    <header>
+        <div class="menu-btn">
+            <span class="menu-btn__burger"></span>
         </div>
-    </div>
+        <nav class="nav">
+            <ul class="menu-nav">
+                <li class="menu-nav__item active">
+                    <a href="index.html" class="menu-nav__link">
+                        Home
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="about.html" class="menu-nav__link">
+                        About Me
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="projects.html" class="menu-nav__link">
+                        Projects
+                    </a>
+                </li>
+                <li class="menu-nav__item">
+                    <a href="contact.html" class="menu-nav__link">
+                        Contact Me
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home">
+            <h2>Hi! My Name Is</h2>
+
+            <h1 class="home__name">
+              Mike <span class="home__name--last">Smith</span>
+            </h1>
+            <h2>
+              Web Developer, Designer & Programmer
+            </h2>
+      
+            <div class="social-icons">
+              <a href="#!">
+                <i class="fab fa-twitter fa-2x"></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-facebook fa-2x"></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-instagram fa-2x"></i>
+              </a>
+              <a href="#!">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
+            </div>
+      
+            <footer>&copy; Copyright 2019</footer>
+          </section>
+        </main>
+    </main>
+
+    <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
 </body>
 </html>
