@@ -8,3 +8,13 @@ $font-weights:(
     "medium": 500,
     "bold": 600
 );
+
+$breakpoint: (
+  sm: "576px",
+  md: "768px",
+  lg: "992px",
+  xl: "1200",
+  xxl: "1400px",
+  xxxl: "1600px",
+);
+

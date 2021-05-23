@@ -19,7 +19,10 @@
         @include flexCenter(row);
 
         .item{
-            @include flexCenter(column)
+            
+        }
+        @include mediaQuery{
+            @include flexCenter(column);
         }
     }
 }
@@ -28,3 +31,4 @@
 .light{
     @include theme($light-theme:true)
 }
+
