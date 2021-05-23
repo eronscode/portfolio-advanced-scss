@@ -1,34 +1,6 @@
-// .card{
-//     margin: 0 auto;
-//     width: 70%;
-
-//     #{&}__title{
-//         font-weight: setWeight(bold);
-//         // color: $text-color;
-
-//         &:hover{
-//             color: $accent-color;
-//         }
-//     }
-
-//     #{&}__content{
-//         font-weight: setWeight(regular);
-//         // color: $text-color;
-//     }
-//     #{&}__bottom{
-//         @include flexCenter(row);
-
-//         .item{
-            
-//         }
-//         @include mediaQuery{
-//             @include flexCenter(column);
-//         }
-//     }
-// }
+.light{
+    @include theme($light-theme:true)
+}
 
 
-// .light{
-//     @include theme($light-theme:true)
-// }
 

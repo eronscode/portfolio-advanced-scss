@@ -19,5 +19,46 @@ h1, h2, h3 {
 
 a {
   color: #ffffff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+main .social-icons a {
+  padding: 0.4rem;
+}
+
+main .social-icons a:hover {
+  color: #ff652f;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #ffffff;
+}
+
+.light {
+  background: white;
+  color: black;
 }
 /*# sourceMappingURL=index.css.map */
