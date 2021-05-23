@@ -1,12 +1,13 @@
 
 @import './variables';
+@import './mixins';
 @import './functions';
 @import './resets';
-@import './mixins';
 
 @import './app';
 
-@import './pages/home';
+@import './partials/home';
+@import './partials/menu';
 
 
 

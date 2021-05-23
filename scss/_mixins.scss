@@ -27,3 +27,9 @@
         }
     }
 }
+
+
+@mixin transition-ease($value: 0.5s) {
+    transition: all $value ease-in-out;
+}
+
