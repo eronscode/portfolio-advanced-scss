@@ -1,11 +1,20 @@
 $primary-color: #272727;
 $secondary-color: #ffffff;
 $text-color: #cccc;
+$font-weights:(
+    "regular": 400,
+    "medium": 500,
+    "bold": 600
+);
 
 body{
     background: $primary-color;
+
 }
+
 
 h1{
     color: $text-color;
+    font-weight: map-get($font-weights, regular);
+
 }
