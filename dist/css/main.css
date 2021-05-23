@@ -3,7 +3,26 @@ body {
 }
 
 h1 {
-  color: #cccc;
+  color: #ffffff;
   font-weight: 400;
+}
+
+.card {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.card .card__title {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.card .card__title:hover {
+  color: #800080;
+}
+
+.card .card__content {
+  font-weight: 400;
+  color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */
